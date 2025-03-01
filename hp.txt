@@ -173,7 +173,7 @@ proxies:
     type: wireguard
     ip: 172.16.0.2
     ipv6: 2001:db8:1::3
-    private-key: "Vq90ChEkrxMZVzo8P0Fmi%2FvbV0L8wmp3kNqEJzRuRRo="
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: "[2606:4700:d0::5db:987a:2353:9dcc]"
     port: 3854
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
