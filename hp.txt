@@ -27,40 +27,40 @@ dns:
   use-hosts: true
   use-system-hosts: false
 nameserver:
-  - '8.8.8.8'           # Google Primary (IPv4)
-  - '2001:4860:4860::8888'  # Google Primary (IPv6)
-  - '1.1.1.1'           # CloudFlare Primary (IPv4)
-  - '2606:4700:4700::1111'  # CloudFlare Primary (IPv6)
-  - '8.26.56.10'        # Comodo Primary (IPv4)
-  - '2001:1608:10:25::1c04:b12f'  # Comodo Primary (IPv6)
-  - '208.67.222.222'    # OpenDNS Primary (IPv4)
-  - '2620:119:35::35'   # OpenDNS Primary (IPv6)
-  - '9.9.9.9'           # Quad9 Primary (IPv4)
-  - '2620:fe::fe'       # Quad9 Primary (IPv6)
-  - '77.88.8.8'         # Yandex Primary (IPv4)
-  - '2a02:6b8::feed:0ff'  # Yandex Primary (IPv6)
-  - '185.55.226.26'     # بگذر Primary (IPv4)
-  - '2a00:1098:0:80::2' # بگذر Primary (IPv6)
-  - '178.22.122.100'    # شکن Primary (IPv4)
-  - '2a00:1098:2c::1'   # شکن Primary (IPv6)
+  - '8.8.8.8'
+  - '2001:4860:4860::8888'
+  - '1.1.1.1'
+  - '2606:4700:4700::1111'
+  - '8.26.56.10'
+  - '2001:1608:10:25::1c04:b12f'
+  - '208.67.222.222'
+  - '2620:119:35::35'
+  - '9.9.9.9'
+  - '2620:fe::fe'
+  - '77.88.8.8'
+  - '2a02:6b8::feed:0ff'
+  - '185.55.226.26'
+  - '2a00:1098:0:80::2'
+  - '178.22.122.100'
+  - '2a00:1098:2c::1'
 
 proxy-server-nameserver:
-  - '8.8.8.8'           # Google Primary (IPv4)
-  - '2001:4860:4860::8888'  # Google Primary (IPv6)
-  - '1.1.1.1'           # CloudFlare Primary (IPv4)
-  - '2606:4700:4700::1111'  # CloudFlare Primary (IPv6)
-  - '8.26.56.10'        # Comodo Primary (IPv4)
-  - '2001:1608:10:25::1c04:b12f'  # Comodo Primary (IPv6)
-  - '208.67.222.222'    # OpenDNS Primary (IPv4)
-  - '2620:119:35::35'   # OpenDNS Primary (IPv6)
-  - '9.9.9.9'           # Quad9 Primary (IPv4)
-  - '2620:fe::fe'       # Quad9 Primary (IPv6)
-  - '77.88.8.8'         # Yandex Primary (IPv4)
-  - '2a02:6b8::feed:0ff'  # Yandex Primary (IPv6)
-  - '185.55.226.26'     # بگذر Primary (IPv4)
-  - '2a00:1098:0:80::2' # بگذر Primary (IPv6)
-  - '178.22.122.100'    # شکن Primary (IPv4)
-  - '2a00:1098:2c::1'   # شکن Primary (IPv6)
+  - '8.8.8.8'
+  - '2001:4860:4860::8888'
+  - '1.1.1.1'
+  - '2606:4700:4700::1111'
+  - '8.26.56.10'
+  - '2001:1608:10:25::1c04:b12f'
+  - '208.67.222.222'
+  - '2620:119:35::35'
+  - '9.9.9.9'
+  - '2620:fe::fe'
+  - '77.88.8.8'
+  - '2a02:6b8::feed:0ff'
+  - '185.55.226.26'
+  - '2a00:1098:0:80::2'
+  - '178.22.122.100'
+  - '2a00:1098:2c::1'
 tun:
   enable: true
   stack: mixed
