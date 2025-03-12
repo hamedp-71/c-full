@@ -128,7 +128,7 @@ proxies:
     ipv6: 2001:db8:1::3
     private-key: "sBlOEknlqiLiQ0cgThr8n9sZB6nCJ0oTgYMlTlLgekY="
     server: 188.114.97.56
-    port: 500
+    port: 510
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -152,7 +152,7 @@ proxies:
     ipv6: 2001:db8:1::3
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: 188.114.97.221
-    port: 500
+    port: 510
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -165,7 +165,7 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::3
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: 188.115.98.60
+    server: 188.114.98.60
     port: 943
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
