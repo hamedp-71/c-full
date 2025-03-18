@@ -127,8 +127,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::3
     private-key: "sBlOEknlqiLiQ0cgThr8n9sZB6nCJ0oTgYMlTlLgekY="
-    server: 162.159.192.1
-    port: 8086
+    server: 188.114.98.113
+    port: 1070
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
