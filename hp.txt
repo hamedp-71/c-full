@@ -76,7 +76,7 @@ sniffer:
 proxies:
   - name: "🇮🇷 Warp - IPv4-1"
     type: wireguard
-    ip: 172.16.0.2/32
+    ip: 172.16.0.2
     ipv6: 2001:db8:1::1
     private-key: "EMuSZQPMWU+nw/1hdlX2MzUbVus6Rm3yp7kVCSXv4lE="
     server: 162.159.195.76
