@@ -77,7 +77,7 @@ proxies:
   - name: "🇮🇷 Warp - IPv4-1"
     type: wireguard
     ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "EMuSZQPMWU+nw/1hdlX2MzUbVus6Rm3yp7kVCSXv4lE="
     server: zula.ir
     port: 943
@@ -90,7 +90,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 500
+      jmax: 450
       s1: 0
       s2: 0
       h1: 1
