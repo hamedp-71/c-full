@@ -77,10 +77,10 @@ proxies:
   - name: "🇮🇷 Warp - IPv4-1"
     type: wireguard
     ip: 172.16.0.2/32
-    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
+    ipv6: 2001:db8:1::1
     private-key: "EMuSZQPMWU+nw/1hdlX2MzUbVus6Rm3yp7kVCSXv4lE="
-    server: zula.ir
-    port: 943
+    server: 162.159.195.76:891
+    port: 891
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
