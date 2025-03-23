@@ -79,7 +79,7 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "EMuSZQPMWU+nw/1hdlX2MzUbVus6Rm3yp7kVCSXv4lE="
-    server: 162.159.195.76:891
+    server: 162.159.195.76
     port: 891
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
@@ -90,7 +90,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 450
+      jmax: 500
       s1: 0
       s2: 0
       h1: 1
