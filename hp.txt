@@ -79,8 +79,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1
     private-key: "EMuSZQPMWU+nw/1hdlX2MzUbVus6Rm3yp7kVCSXv4lE="
-    server: www.setareyek.ir
-    port: 1070
+    server: zula.ir
+    port: 943
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
