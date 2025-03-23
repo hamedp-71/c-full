@@ -89,7 +89,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 200
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -99,7 +99,7 @@ proxies:
 
   - name: "🇷🇴 Warp - IPv4-1"
     type: wireguard
-    ip: 172.16.0.3
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: 188.114.97.53
