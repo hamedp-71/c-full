@@ -72,7 +72,7 @@ proxies:
     ipv6: 2001:db8:1::1/32
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
     server: 188.114.99.48
-    port: 7281
+    port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -96,7 +96,7 @@ proxies:
     ipv6: 2001:db8:1::1/32
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: 188.114.99.88
-    port: 7281
+    port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -241,7 +241,7 @@ proxies:
     ipv6: 2001:db8:1::1/32
     private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
     server: 188.114.99.248
-    port: 1701
+    port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
