@@ -60,7 +60,7 @@ tun:
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
-  mtu: 1316
+  mtu: 1280
 
 sniffer:
   enable: true
@@ -85,11 +85,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 400
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -113,11 +114,11 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv4-2"
     type: wireguard
-    ip: 172.16.0.3
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: items-stolen.com
-    port: 1010
+    server: hianime.to
+    port: 4233
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -127,7 +128,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 400
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -137,11 +138,11 @@ proxies:
 
   - name: "🇩🇪 Warp - IPv4-2"
     type: wireguard
-    ip: 172.16.0.3
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: items-stolen.com
-    port: 1010
+    server: hianime.to
+    port: 4233
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -151,7 +152,7 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv4-3"
     type: wireguard
-    ip: 172.16.0.3
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
     server: web.netmovies.to
@@ -165,7 +166,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 400
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -175,7 +176,7 @@ proxies:
 
   - name: "🇩🇪 Warp - IPv4-3"
     type: wireguard
-    ip: 172.16.0.3
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: web.netmovies.to
@@ -202,7 +203,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 400
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -225,7 +226,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 400
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -235,7 +236,7 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv6"
     type: wireguard
-    ip: 172.16.0.2
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: "[2606:4700:d0::5db:987a:2353:9dcc]"
@@ -249,7 +250,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 400
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -259,7 +260,7 @@ proxies:
 
   - name: "🇸🇪 Warp - IPv6"
     type: wireguard
-    ip: 172.16.0.2
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
     server: 162.159.192.100
