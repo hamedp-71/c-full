@@ -60,7 +60,7 @@ tun:
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
-  mtu: 0
+  mtu: 1350
 
 sniffer:
   enable: true
@@ -85,7 +85,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -109,7 +109,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: "🇮🇷 Warp - IPv4-1"
 
   - name: "🇮🇷 Warp - IPv4-2"
@@ -123,7 +123,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -147,7 +147,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: "🇮🇷 Warp - IPv4-2"
 
   - name: "🇮🇷 Warp - IPv4-3"
@@ -161,7 +161,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -185,7 +185,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: "🇮🇷 Warp - IPv4-3"
 
   - name: "🇺🇸-hamedp71"
@@ -198,7 +198,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -221,7 +221,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -245,7 +245,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -269,7 +269,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 0
+    mtu: 1400
     dialer-proxy: "🇮🇷 Warp - IPv6"
 
 proxy-groups:
