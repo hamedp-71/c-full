@@ -76,8 +76,8 @@ sniffer:
 proxies:
   - name: "🇮🇷 Warp - IPv4-1"
     type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
+    ip: 172.16.0.11
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
     server: zula.ir
     port: 3476
@@ -100,8 +100,8 @@ proxies:
 
   - name: "🇷🇴 Warp - IPv4-1"
     type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
+    ip: 172.16.0.11
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: zula.ir
     port: 3476
@@ -114,8 +114,8 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv4-2"
     type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::3
+    ip: 172.16.0.12
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
     server: hianime.to
     port: 4233
@@ -138,8 +138,8 @@ proxies:
 
   - name: "🇩🇪 Warp - IPv4-2"
     type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::3
+    ip: 172.16.0.12
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: hianime.to
     port: 4233
@@ -152,8 +152,8 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv4-3"
     type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::3
+    ip: 172.16.0.13
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
     server: web.netmovies.to
     port: 3476
@@ -176,8 +176,8 @@ proxies:
 
   - name: "🇩🇪 Warp - IPv4-3"
     type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::3
+    ip: 172.16.0.13
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: web.netmovies.to
     port: 3476
@@ -236,11 +236,11 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv6"
     type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::3
+    ip: 172.16.0.14
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: "[2606:4700:d0::5db:987a:2353:9dcc]"
-    port: 3854
+    server: "[2606:4700:d1::155a:46cf:430a:c1d7]"
+    port: 928
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -260,11 +260,11 @@ proxies:
 
   - name: "🇸🇪 Warp - IPv6"
     type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::3
+    ip: 172.16.0.14
+    ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 162.159.192.100
-    port: 5956
+    server: 188.114.99.248
+    port: 1701
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
