@@ -85,7 +85,6 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -109,7 +108,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv4-1"
 
   - name: "🇮🇷 Warp - IPv4-2"
