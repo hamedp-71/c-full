@@ -71,8 +71,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1/32
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: zula.ir
-    port: 1070
+    server: 188.114.99.48
+    port: 7281
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -90,13 +90,13 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇷🇴 Warp - IPv4-1"
+  - name: "🇩🇪 Warp - IPv4-1"
     type: wireguard
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1/32
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: zula.ir
-    port: 1070
+    server: 188.114.99.88
+    port: 7281
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -109,7 +109,7 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1/32
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: hianime.to
+    server: zula.ir
     port: 4233
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
@@ -128,12 +128,12 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 Warp - IPv4-2"
+  - name: "🇷🇴 Warp - IPv4-2"
     type: wireguard
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1/32
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: hianime.to
+    server: zula.ir
     port: 4233
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
@@ -270,9 +270,9 @@ proxy-groups:
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
       - "🇮🇷 Warp - IPv4-1"
-      - "🇷🇴 Warp - IPv4-1"
+      - "🇩🇪 Warp - IPv4-1"
       - "🇮🇷 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-2"
+      - "🇷🇴 Warp - IPv4-2"
       - "🇮🇷 Warp - IPv4-3"
       - "🇩🇪 Warp - IPv4-3"
       - "🇺🇸-hamedp71"
@@ -287,9 +287,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - "🇮🇷 Warp - IPv4-1"
-      - "🇷🇴 Warp - IPv4-1"
+      - "🇩🇪 Warp - IPv4-1"
       - "🇮🇷 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-2"
+      - "🇷🇴 Warp - IPv4-2"
       - "🇮🇷 Warp - IPv4-3"
       - "🇩🇪 Warp - IPv4-3"
       - "🇺🇸-hamedp71"
