@@ -60,7 +60,7 @@ tun:
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
-  mtu: 1316
+  mtu: 1280
 
 sniffer:
   enable: true
@@ -85,11 +85,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 70
+      jmax: 500
       s1: 0
       s2: 0
       h1: 1
