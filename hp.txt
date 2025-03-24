@@ -85,7 +85,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1400
+    mtu: 1316
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
