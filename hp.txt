@@ -82,7 +82,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 300
+      jmax: 450
       s1: 0
       s2: 0
       h1: 1
@@ -109,8 +109,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1/32
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: zula.ir
-    port: 4233
+    server: web.netmovies.to
+    port: 3476
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -128,57 +128,19 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇷🇴 Warp - IPv4-2"
+  - name: "🇩🇪🇷🇴 Warp - IPv4-2"
     type: wireguard
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1/32
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: zula.ir
-    port: 4233
+    server: web.netmovies.to
+    port: 3476
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv4-2"
-
-  - name: "🇮🇷 Warp - IPv4-3"
-    type: wireguard
-    ip: 172.16.0.3
-    ipv6: 2001:db8:1::1/32
-    private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: web.netmovies.to
-    port: 3476
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 300
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-3"
-    type: wireguard
-    ip: 172.16.0.3
-    ipv6: 2001:db8:1::1/32
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: web.netmovies.to
-    port: 3476
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-3"
 
   - name: "🇺🇸-hamedp71"
     type: wireguard
@@ -195,7 +157,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 300
+      jmax: 450
       s1: 0
       s2: 0
       h1: 1
@@ -218,7 +180,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 300
+      jmax: 450
       s1: 0
       s2: 0
       h1: 1
@@ -242,7 +204,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 300
+      jmax: 450
       s1: 0
       s2: 0
       h1: 1
@@ -272,9 +234,7 @@ proxy-groups:
       - "🇮🇷 Warp - IPv4-1"
       - "🇩🇪 Warp - IPv4-1"
       - "🇮🇷 Warp - IPv4-2"
-      - "🇷🇴 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-3"
+      - "🇩🇪🇷🇴 Warp - IPv4-2"
       - "🇺🇸-hamedp71"
       - "🇳🇱-hamedp71"
       - "🇮🇷 Warp - IPv6"
@@ -289,9 +249,7 @@ proxy-groups:
       - "🇮🇷 Warp - IPv4-1"
       - "🇩🇪 Warp - IPv4-1"
       - "🇮🇷 Warp - IPv4-2"
-      - "🇷🇴 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-3"
+      - "🇩🇪🇷🇴 Warp - IPv4-2"
       - "🇺🇸-hamedp71"
       - "🇳🇱-hamedp71"
       - "🇮🇷 Warp - IPv6"
