@@ -109,8 +109,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1/32
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: zula.ir
-    port: 3476
+    server: web.netmovies.to
+    port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -134,7 +134,7 @@ proxies:
     ipv6: 2001:db8:1::1/32
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: web.netmovies.to
-    port: 3476
+    port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
