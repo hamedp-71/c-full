@@ -109,7 +109,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1280
+    mtu: 1316
     dialer-proxy: "🇮🇷 Warp - IPv4-1"
 
   - name: "🇮🇷 Warp - IPv4-2"
