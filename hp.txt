@@ -142,75 +142,6 @@ proxies:
     mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv4-2"
 
-  - name: "🇺🇸-hamedp71"
-    type: wireguard
-    ip: 10.1.33.145/32
-    private-key: "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04="
-    server: 192.223.24.121
-    port: 60100
-    public-key: "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇳🇱-hamedp71"
-    type: wireguard
-    ip: 10.1.33.145/32
-    private-key: "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04="
-    server: 50.7.176.133
-    port: 60100
-    public-key: "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇦-hamedp71"
-    type: wireguard
-    ip: 10.1.33.145/32
-    private-key: "mJK35TL0Nf4ESOiMGSUwvzC9nj7RMaYAQAG9vU4EA04="
-    server: 31.42.186.176
-    port: 60100
-    public-key: "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
   - name: "🇮🇷 Warp - IPv6"
     type: wireguard
     ip: 172.16.0.2/32
@@ -258,9 +189,6 @@ proxy-groups:
       - "🇩🇪 Warp - IPv4-1"
       - "🇮🇷 Warp - IPv4-2"
       - "🇩🇪🇷🇴 Warp - IPv4-2"
-      - "🇺🇸-hamedp71"
-      - "🇳🇱-hamedp71"
-      - "🇺🇦-hamedp71"
       - "🇮🇷 Warp - IPv6"
       - "🇸🇪 Warp - IPv6"
 
@@ -274,9 +202,6 @@ proxy-groups:
       - "🇩🇪 Warp - IPv4-1"
       - "🇮🇷 Warp - IPv4-2"
       - "🇩🇪🇷🇴 Warp - IPv4-2"
-      - "🇺🇸-hamedp71"
-      - "🇳🇱-hamedp71"
-      - "🇺🇦-hamedp71"
       - "🇮🇷 Warp - IPv6"
       - "🇸🇪 Warp - IPv6"
 
