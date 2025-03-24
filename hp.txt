@@ -108,9 +108,9 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1/128
-    private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
+    private-key: "CKhobkhCpHDD2ygfXMp256m4SJ8UdOvRGevvgWkZU1A="
     server: zula.ir
-    port: 1843
+    port: 1018
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
