@@ -90,7 +90,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 150
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -128,7 +128,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 150
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -166,7 +166,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 150
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -203,7 +203,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 150
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -226,7 +226,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 150
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -250,7 +250,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 150
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
