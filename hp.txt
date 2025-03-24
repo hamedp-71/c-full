@@ -216,7 +216,7 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1/32
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: [2606:4700:d0::8be4:d75d:e714:abb1]"
+    server: "[2606:4700:d0::8be4:d75d:e714:abb1]"
     port: 987
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
