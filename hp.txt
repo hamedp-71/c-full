@@ -60,7 +60,7 @@ tun:
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
-  mtu: 1280
+  mtu: 1316
 
 sniffer:
   enable: true
@@ -89,7 +89,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 999
+      jmax: 400
       s1: 0
       s2: 0
       h1: 1
@@ -127,7 +127,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 999
+      jmax: 400
       s1: 0
       s2: 0
       h1: 1
@@ -165,7 +165,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 999
+      jmax: 400
       s1: 0
       s2: 0
       h1: 1
@@ -202,7 +202,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 999
+      jmax: 400
       s1: 0
       s2: 0
       h1: 1
@@ -225,7 +225,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 999
+      jmax: 400
       s1: 0
       s2: 0
       h1: 1
@@ -249,7 +249,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 999
+      jmax: 400
       s1: 0
       s2: 0
       h1: 1
