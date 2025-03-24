@@ -39,7 +39,6 @@ dns:
     - '2620:119:35::35'
     - '9.9.9.9'
     - '2620:fe::fe'
-    - '185.55.226.26'
   proxy-server-nameserver:
     - '8.8.8.8'
     - '2001:4860:4860::8888'
@@ -53,7 +52,6 @@ dns:
     - '2620:119:35::35'
     - '9.9.9.9'
     - '2620:fe::fe'
-    - '185.55.226.26'
 tun:
   enable: true
   stack: mixed
@@ -62,7 +60,7 @@ tun:
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
-  mtu: 1316
+  mtu: 1280
 
 sniffer:
   enable: true
