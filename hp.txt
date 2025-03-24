@@ -60,7 +60,7 @@ tun:
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
-  mtu: 1316
+  mtu: 1280
 
 sniffer:
   enable: true
@@ -76,7 +76,7 @@ sniffer:
 proxies:
   - name: "🇮🇷 Warp - IPv4-1"
     type: wireguard
-    ip: 172.16.0.11
+    ip: 172.16.0.3
     ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
     server: zula.ir
@@ -85,12 +85,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 250
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -100,7 +100,7 @@ proxies:
 
   - name: "🇷🇴 Warp - IPv4-1"
     type: wireguard
-    ip: 172.16.0.11
+    ip: 172.16.0.3
     ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: zula.ir
@@ -109,12 +109,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv4-1"
 
   - name: "🇮🇷 Warp - IPv4-2"
     type: wireguard
-    ip: 172.16.0.12
+    ip: 172.16.0.3
     ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
     server: hianime.to
@@ -123,12 +123,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 250
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -138,7 +138,7 @@ proxies:
 
   - name: "🇩🇪 Warp - IPv4-2"
     type: wireguard
-    ip: 172.16.0.12
+    ip: 172.16.0.3
     ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: hianime.to
@@ -147,12 +147,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv4-2"
 
   - name: "🇮🇷 Warp - IPv4-3"
     type: wireguard
-    ip: 172.16.0.13
+    ip: 172.16.0.3
     ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
     server: web.netmovies.to
@@ -161,12 +161,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 250
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -176,7 +176,7 @@ proxies:
 
   - name: "🇩🇪 Warp - IPv4-3"
     type: wireguard
-    ip: 172.16.0.13
+    ip: 172.16.0.3
     ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: web.netmovies.to
@@ -185,7 +185,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv4-3"
 
   - name: "🇺🇸-hamedp71"
@@ -198,12 +198,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 250
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -221,12 +221,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 250
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -236,7 +236,7 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv6"
     type: wireguard
-    ip: 172.16.0.14
+    ip: 172.16.0.3
     ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: "[2606:4700:d1::155a:46cf:430a:c1d7]"
@@ -245,12 +245,12 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 250
+      jmax: 150
       s1: 0
       s2: 0
       h1: 1
@@ -260,7 +260,7 @@ proxies:
 
   - name: "🇸🇪 Warp - IPv6"
     type: wireguard
-    ip: 172.16.0.14
+    ip: 172.16.0.3
     ipv6: 2606:4700:110:846c:e510:bfa1:ea9f:5247/128
     private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
     server: 188.114.99.248
@@ -269,7 +269,7 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
-    mtu: 1316
+    mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv6"
 
 proxy-groups:
