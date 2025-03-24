@@ -89,7 +89,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 200
+      jmax: 300
       s1: 0
       s2: 0
       h1: 1
@@ -149,7 +149,7 @@ proxies:
     mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv4-2"
 
-- name: "🇮🇷 Warp - IPv4-3"
+  - name: "🇮🇷 Warp - IPv4-3"
     type: wireguard
     ip: 172.16.0.3
     ipv6: 2001:db8:1::3
