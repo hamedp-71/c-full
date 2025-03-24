@@ -116,7 +116,7 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::2
     private-key: "sBlOEknlqiLiQ0cgThr8n9sZB6nCJ0oTgYMlTlLgekY="
-    server: engage.cloudflareclient.com
+    server: soft98.ir
     port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
