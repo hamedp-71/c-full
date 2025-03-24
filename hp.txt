@@ -69,7 +69,7 @@ proxies:
   - name: "🇮🇷 Warp - IPv4-1"
     type: wireguard
     ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1/32
+    ipv6: 2001:db8:1::1/128
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
     server: 188.114.99.48
     port: 934
@@ -93,7 +93,7 @@ proxies:
   - name: "🇩🇪 Warp - IPv4-1"
     type: wireguard
     ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1/32
+    ipv6: 2001:db8:1::1/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: 188.114.99.88
     port: 934
@@ -106,8 +106,8 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv4-2"
     type: wireguard
-    ip: 172.16.0.3
-    ipv6: 2001:db8:1::1/32
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1/128
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
     server: download.webc.co
     port: 1010
@@ -130,8 +130,8 @@ proxies:
 
   - name: "🇩🇪🇷🇴 Warp - IPv4-2"
     type: wireguard
-    ip: 172.16.0.3
-    ipv6: 2001:db8:1::1/32
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: download.webc.co
     port: 1010
