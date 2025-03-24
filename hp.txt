@@ -60,7 +60,6 @@ tun:
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
-  mtu: auto
 
 sniffer:
   enable: true
